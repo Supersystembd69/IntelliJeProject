@@ -1,7 +1,7 @@
 
 
 Feature: BNS login form fillup
-  Useer wants to create new account in BNS webpage
+  User wants to create new account in BNS webpage
 
   @BNSPOMData
   Scenario Outline: Creating new account in BNS webpage
