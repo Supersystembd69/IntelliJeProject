@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="80.299511">
+    <testcase classname="BNS signup form fillup functionality" name="Creating new account signup on BNS webpage" time="80.299511">
+        <system-out>
+            <![CDATA[Given User is on BNS signup webpage.........................................passed
+When User will enter data from following table..............................passed
+And User will select data from following table..............................passed
+And User will select from following table...................................passed
+And User will click on Submit button........................................passed
+Then User should get meaasge as following table.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

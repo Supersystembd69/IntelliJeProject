@@ -1,0 +1,196 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-25T20:13:08.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7965858600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Creating new account signup on BNS webpage",
+        "description": "",
+        "id": "bns-signup-form-fillup-functionality;creating-new-account-signup-on-bns-webpage",
+        "after": [
+          {
+            "result": {
+              "duration": 4497436900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1750384500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on BNS signup webpage",
+            "match": {
+              "location": "BNSDataTableStep.user_is_on_BNS_signup_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35196802500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will enter data from following table",
+            "match": {
+              "location": "BNSDataTableStep.user_will_enter_data_from_following_table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Email",
+                  "Password",
+                  "Phone"
+                ]
+              },
+              {
+                "cells": [
+                  "Ataur",
+                  "Tarafder",
+                  "ata@yahoo.com",
+                  "der45",
+                  "347-444-2890"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18142753400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will select data from following table",
+            "match": {
+              "location": "BNSDataTableStep.user_will_select_data_from_following_table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Month",
+                  "May"
+                ]
+              },
+              {
+                "cells": [
+                  "Day",
+                  "20"
+                ]
+              },
+              {
+                "cells": [
+                  "Year",
+                  "2001"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8358123100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will select from following table",
+            "match": {
+              "location": "BNSDataTableStep.user_will_select_from_following_table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Gender"
+                ]
+              },
+              {
+                "cells": [
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2755684600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User will click on Submit button",
+            "match": {
+              "location": "BNSDataTableStep.user_will_click_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1630699300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should get meaasge as following table",
+            "match": {
+              "location": "BNSDataTableStep.user_should_get_meaasge_as_following_table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Message"
+                ]
+              },
+              {
+                "cells": [
+                  "Submitted Form Data"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BNSPOMDataTable"
+          }
+        ]
+      }
+    ],
+    "name": "BNS signup form fillup functionality",
+    "description": "  Useer wants to create a new account on BNS webpage",
+    "id": "bns-signup-form-fillup-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BNSDataTable.feature",
+    "tags": [
+      {
+        "name": "@BNSPOMDataTable",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

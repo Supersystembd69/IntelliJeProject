@@ -1,0 +1,5 @@
+steps\AbstarctClass.class
+steps\Hooks.class
+pages\BNSPage.class
+runner\TestRunner.class
+steps\BNSDataTableStep.class
